@@ -8,7 +8,7 @@ The Virtual Museum Tour Guide is a project that utilizes machine learning techni
 
 1. Clone the repository
 ```
-git clone https://github.com/hothanhcong1998/Virtual-Museum-Guide.git
+git clone https://github.com/hothanhcong1998/virtual-museum-guide-project.git
 ```
 
 2. Install the required packages using pip
@@ -20,11 +20,14 @@ or
 conda create --name virtual_museum_guide --file /Users/cong/Downloads/0_ML709_submit/requirements.txt
 ```
 
-3. Download the Louvre Abu Dhabi dataset.
-
 ### Usage
 
-Run the system
+1. Set OpenAI API key:
+Using the API key in the email to replace the API key in the tour_guide_pipeline.py file 
+
+2. Update the path in config.py file
+
+3. Run the system
 ```
 python tour_guide_pipeline.py
 ```
