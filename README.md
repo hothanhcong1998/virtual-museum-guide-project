@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 or
 ```
-conda create --name virtual_museum_guide --file /Users/cong/Downloads/0_ML709_submit/requirements.txt
+conda create --name virtual_museum_guide --file requirements.txt
 ```
 
 ### Usage
